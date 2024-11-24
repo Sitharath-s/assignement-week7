@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cretae Account</title>
+    <link rel="stylesheet" href="Create_ACC.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Create Account</h3>
+        </div>
+        <div class="body">
+            <div class="name">
+                <div class="Firstname position">
+                    First name*
+                    <input type="text" placeholder=" enter your first name" style="height: 30px; border: 1px solid lightgray;border-radius: 4px;outline: none;">
+                </div>
+                <div class="Lastname position">
+                    Last name
+                    <input type="text" placeholder=" enter your last name" style="height: 30px; border: 1px solid lightgray;border-radius: 4px;outline: none;">
+                </div>
+            </div>
+            <div class="Email position">
+                Email*
+                <input type="text" placeholder=" enter your email" style="height: 30px; border: 1px solid lightgray; border-radius: 4px;outline: none"> 
+            </div>
+            <div class="password">
+                <div class="Password position">
+                    Password*
+                    <input type="text" placeholder=" enter your password" style="height: 30px; border: 1px solid lightgray; border-radius: 4px;outline: none;">
+                </div>
+                <div class="Comfirm position">
+                    Comfirm Password* 
+                    <input type="text" placeholder=" enter your password again" style="height: 30px; border: 1px solid lightgray; border-radius: 4px;outline: none;">
+                </div>
+            </div>
+            <div class="Personal-infor">
+                <div class="Gender">
+                    <label for="gender">Gender:</label><br>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                  </div>
+                <div class="Hobbies">
+                    <label for="hobbies">Hobbies</label><br>
+                    <input type="checkbox" name="hobbies">Music
+                    <input type="checkbox" name="hobbies">Sports
+                    <input type="checkbox" name="hobbies">Travel
+                    <input type="checkbox" name="hobbies">Movies    
+                </div>
+            </div>
+            <div class="Income">
+                <div class="Source_income">
+                    Source of Income
+                    <select style="height: 30px; border: 1px solid lightgray; border-radius: 4px;outline: none;">
+                        <option>Employed</option>
+                        <option>Theif</option>
+                        <option>murderer</option>
+                        <option>Robbed bank</option>
+                    </select>
+                </div>
+                <div class="Amount_income">
+                    <div class="Amount">
+                        <div class="Range">Income
+                            <input type="range" min="1" max="10000" style="width: 200px;">
+                        </div>
+                        <div class="k20">20K</div>
+                    </div>
+                </div>
+            </div>
+            <div class="Personal-appear">
+                <div class="Profile-Picture">
+                    Upload Profile Picture
+                    <input type="file">
+                </div>
+                <div class="Age">
+                    Age
+                    <input type="text" style="height: 30px;border:1px solid lightgray;border-radius: 4px;outline: none;">
+                </div>
+            </div>
+            <div class="Bio position">
+                Bio
+                <textarea rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="footer">
+            <input type="submit" style="width: 100px;height: 40px;" class="button">
+        </div>
+    </div>
+</body>
+</html>

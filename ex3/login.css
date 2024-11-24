@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body{
+    background: url("angkor.png") no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 60px 150px 110px;
+    background-color: transparent;  
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.body{
+    display: grid;
+    grid-template-rows: 60px 60px 30px;
+}
+
+.username-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+    position: relative;
+    color: white;
+}
+
+.username-input i{
+    position: absolute;
+    right: 45px;
+    font-size: 15px;
+}
+
+.username-input input{
+    background-color: transparent;
+}
+
+.Password-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Password-input i{
+    position: absolute;
+    right: 45px;
+    font-size: 15px;
+    color: white;
+}
+
+.Password-input input{
+    background-color: transparent;
+}
+
+.Remember-Forgot{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    place-items: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-rows: 30px 70px;
+    width: 240px;
+    height: 30px;
+    justify-self: center;
+}
+
+.login-button{
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid white;
+}
+
+button:hover{
+    background-color: darkgray;
+}
+button:active{
+    background-color: white;
+}
+
+.Register, a{
+    color: white;
+}
+
+.Create-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+a:active{
+    color: white;
+}
+
+label, a{
+    font-size: 14px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+
